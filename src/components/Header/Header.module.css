@@ -1,0 +1,14 @@
+.header {
+    grid-area: h;
+    background: rgb(68, 68, 68);
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.header img {
+    height: 50px;
+}
+.text {
+    color: #61dafb;
+}
