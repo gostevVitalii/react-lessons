@@ -1,5 +1,5 @@
 import React from "react";
-import Info from "./Info/Info";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 import MyPosts from "./MyPosts/MyPosts";
 import s from './Profile.module.css';
 
@@ -7,18 +7,8 @@ import s from './Profile.module.css';
 const Profile = () => {
     return (
         <div className={s.profile}>
-            <Info />
+            <ProfileInfo />
             <MyPosts />
-
-
-
-
-
-
-
-
-
-
         </div >
 
 

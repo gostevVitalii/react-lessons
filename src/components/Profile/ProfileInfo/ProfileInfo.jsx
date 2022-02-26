@@ -1,10 +1,10 @@
 import React from "react";
 import './avatar.jpg';
 import './background.jpg';
-import s from './Info.module.css';
+import s from './ProfileInfo.module.css';
 
 
-const Info = () => {
+const ProfileInfo = () => {
     return (
         <div className={s.info}>
             <div className={s.background}></div>
@@ -23,4 +23,4 @@ const Info = () => {
 
     );
 }
-export default Info;
+export default ProfileInfo;
