@@ -10,7 +10,7 @@ import Settings from './components/Settings/Settings';
 
 
 
-function App() {
+function App(props) {
   return (
     <BrowserRouter>
 
@@ -19,8 +19,8 @@ function App() {
         <Navbar />
         <div class="app-wrapper-content">
           <Routes>
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/dialogs" element={<Dialogs />} />
+            <Route path="/profile" element={<Profile state={props.state.profile} />} />
+            <Route path="/dialogs" element={<Dialogs state={props.state.dialogs} />} />
             <Route path="/news" element={<News />} />
             <Route path="/music" element={<Music />} />
             <Route path="/settings" element={<Settings />} />
